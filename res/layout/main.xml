@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg8">
+    <TableLayout android:layout_width="fill_parent" 
+    android:id="@+id/tt" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/trr" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <Button android:text="Home" 
+    android:id="@+id/bhome" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:clickable="true"></Button>
+    <Button android:text="Gallery" 
+    android:id="@+id/gallery" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:clickable="true"></Button></TableRow></TableLayout>
+    <TextView android:layout_width="wrap_content" 
+    android:id="@+id/textView1" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="Select starting position" 
+    android:textColor="#FACC2E" 
+    android:linksClickable="false" 
+    android:gravity="center_vertical|center_horizontal" android:layout_height="35dip"></TextView>
+    <Spinner android:id="@+id/spinstart" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true" 
+    android:entries="@array/stop_list"></Spinner>
+    <TextView android:layout_width="wrap_content" 
+    android:id="@+id/textView2" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="Select destination" 
+    android:textColor="#58FA58" 
+    android:linksClickable="false" 
+    android:gravity="center_vertical" android:layout_height="35dip"></TextView>
+    <Spinner android:id="@+id/spinstop" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true" 
+    android:entries="@array/stop_list"></Spinner>
+    <TableLayout android:layout_width="fill_parent" 
+    android:id="@+id/tableLayout3" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/tr" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+    <Button android:text="Direct routes" 
+    android:id="@+id/button1" 
+    android:clickable="true" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"></Button>
+    <Button android:text="Alternate routes" 
+    android:id="@+id/alter" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:clickable="true"></Button></TableRow></TableLayout>
+    <ScrollView android:id="@+id/scrollView1" 
+    android:layout_width="match_parent" android:layout_height="135dip">
+    <TextView android:text="" 
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:editable="true"
+    android:cursorVisible="true" 
+    android:bufferType="editable"
+    android:textColor="#FE9A2E" 
+    android:textSize="20dip"></TextView>
+    </ScrollView>
+    <TableLayout android:layout_width="fill_parent" 
+    android:id="@+id/tableLayout2" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/tableRow" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/bus4" 
+    android:id="@+id/imageView1" 
+    android:layout_width="match_parent"></ImageView></TableRow>
+    </TableLayout>
+</LinearLayout>
+

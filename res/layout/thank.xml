@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg8">
+  <TableLayout 
+    android:layout_width="fill_parent" 
+    android:id="@+id/tll" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/twt" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal">
+    <Button android:text="Back" 
+    android:id="@+id/bk" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+    <Button android:text="Home" 
+    android:id="@+id/hm" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+    </TableRow></TableLayout>
+  <TextView android:layout_width="match_parent" 
+  android:textSize="18dip" 
+  android:id="@+id/tex" 
+  android:textColor="#FFFFFF" 
+  android:gravity="center" 
+  android:layout_height="350dip"></TextView>
+  <TableLayout android:layout_width="fill_parent" 
+    android:id="@+id/tableout3" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/tableRoe" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  <ImageView android:src="@drawable/bus5" 
+  android:layout_width="wrap_content" 
+  android:id="@+id/imv" 
+  android:layout_height="wrap_content">
+  </ImageView></TableRow></TableLayout>    
+</LinearLayout>

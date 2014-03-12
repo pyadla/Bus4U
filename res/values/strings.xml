@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Bus4U</string>
+    <string name="app_name">Bus4U</string>
+    <string name="title">Bus4U</string>
+    <string name="pic">Bus4U</string>
+    <string-array name="stop_list">
+       <item>ABIDS</item>
+       <item>AFZALGUNJ</item>
+       <item>ALWAL</item>
+       <item>AMBERPET</item>
+       <item>AMEERPET</item>
+       <item>ATHAPUR</item>
+       <item>BASHEERBAGH</item>
+       <item>BAGHLINGAMPALLY</item>
+       <item>BALANAGAR</item>
+       <item>BANJARA HILLS</item>
+       <item>BEGUMPET</item>
+       <item>BHEL</item>
+       <item>BORABANDA</item>
+       <item>BKP</item>
+       <item>BOWENPALLY</item>
+       <item>CHANDANAGAR</item>
+       <item>CHARMINAR</item>
+       <item>CHIKKADPALLY</item>
+       <item>DSNR</item>
+       <item>ECIL</item>
+       <item>ERRAGADDA</item>
+       <item>ESI</item>
+       <item>FILMNAGAR</item>
+       <item>GACHIBOWLI</item>
+       <item>GHATKESAR</item>
+       <item>GOLCONDA</item>
+       <item>HAYATHNAGAR</item>
+       <item>HCU</item>
+       <item>HIMAYATH NAGAR</item>
+       <item>HITECH-CITY-SHILPARAMAM</item>
+       <item>HUBSIGUDA</item>
+       <item>IBS</item>
+       <item>JAMIA OSMANIA</item>
+       <item>JBS</item>
+       <item>JEEDIMETLA</item>
+       <item>JNTU</item>
+       <item>JUBILEEHILLS CHECKPOST</item>
+       <item>KACHIGUDA</item>
+       <item>KHAIRATHABAD</item>
+       <item>KONDAPUR</item>
+       <item>KOTHAPET</item>
+       <item>KOTI</item>
+       <item>KPHB</item>
+       <item>LAKDIKAPOOL</item>
+       <item>LANGARHOUZ</item>
+       <item>L.B.NAGAR</item>
+       <item>LINGAMPALLY</item>
+       <item>MALAKPET</item>
+       <item>MASABTANK</item>
+       <item>MEHDIPATNAM</item>
+       <item>MGBS</item>
+       <item>MIYAPUR</item>
+       <item>MJ MARKET</item>
+       <item>NAMPALLY</item>
+       <item>NANAL NAGAR</item>
+       <item>NARAYANAGUDA</item>
+       <item>OSMANSAGAR</item>
+       <item>PARADISE</item>
+       <item>PATANCHERVU</item>
+       <item>PATNY</item>
+       <item>PUNJAGUTTA</item>
+       <item>QUTHB SHAHI TOMBS</item>
+       <item>RNG</item>
+       <item>RTC X ROAD</item>
+       <item>RAMOJI FILM CITY-SANGHI</item>
+       <item>S.MUSEUM</item>
+       <item>SAIFABAD</item>
+       <item>SAINIKPURI</item>
+       <item>SANATHNAGAR</item>
+       <item>SANGEETH</item>
+       <item>SAROORNAGAR</item>
+       <item>SECRETARIAT</item>
+       <item>SECUNDERABAD</item>
+       <item>SR.NAGAR</item>
+       <item>TANK BUND</item>
+       <item>TARNAKA</item>
+       <item>TOLICHOWKI</item>
+       <item>UPPAL</item>
+       <item>VANASTALIPURAM</item>
+       <item>VIDYANAGAR</item>
+       <item>W.COLLEGE</item>
+       <item>YUSUFGUDA</item>
+       <item>ZOOPARK</item>
+  </string-array>
+</resources>

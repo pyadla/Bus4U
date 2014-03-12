@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg8">
+ <TableLayout 
+    android:layout_width="fill_parent" 
+    android:id="@+id/tl2" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/tw4" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal">
+    <Button android:text="    Back    " 
+    android:id="@+id/bck" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+    <Button android:text="    Home    " 
+    android:id="@+id/hme"     
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+    <Button android:text="    Next    " 
+    android:id="@+id/nxt" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"></Button>
+    </TableRow></TableLayout>
+    <TextView android:text="Click the image for info" 
+    android:id="@+id/tv1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="40dip" 
+    android:textSize="20dip" 
+    android:gravity="center"
+    android:textColor="#FFFFFF"></TextView>
+    <HorizontalScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout 
+    android:layout_width="fill_parent" 
+    android:id="@+id/tl" 
+    android:layout_height="wrap_content">
+    <TableRow android:id="@+id/tw6" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal">
+        <ImageView android:layout_width="match_parent" android:id="@+id/acbus" android:layout_margin="7dip" android:layout_height="wrap_content" android:src="@drawable/acbus" android:clickable="true"></ImageView>
+     <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/metrobus" 
+    android:id="@+id/metro" 
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_margin="7dip"></ImageView>
+     <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/genbus1" 
+    android:id="@+id/genrl" 
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_margin="7dip"></ImageView>
+    <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/busbay" 
+    android:id="@+id/bstop" 
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_margin="7dip"></ImageView>
+     <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/qbus" 
+    android:id="@+id/que" 
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_margin="7dip"></ImageView>
+     <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/hangbus" 
+    android:id="@+id/hng" 
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_margin="7dip"></ImageView>
+     <ImageView android:layout_height="wrap_content" 
+    android:src="@drawable/genbus" 
+    android:id="@+id/gdwn" 
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_margin="7dip"></ImageView>    
+    </TableRow></TableLayout></HorizontalScrollView>
+    <ScrollView android:id="@+id/sv" 
+    android:layout_width="match_parent" android:layout_height="170dip">
+    <TextView android:id="@+id/txt" 
+    android:text="" 
+    android:textSize="18dip"
+    android:editable="true"
+    android:cursorVisible="true"
+    android:bufferType="editable" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:textColor="#F2FF00"></TextView></ScrollView>
+</LinearLayout>
